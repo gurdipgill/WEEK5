@@ -150,4 +150,33 @@ label:last-child {
   label span {
     display: inline;
   }
+  
+  /*changes the table width*/
+table {
+	width: 100%;
+	border-collapse; collapse;
+	color: blue;
+}
+
+/*top row white*/
+th {
+	background: white;
+	colour: black;
+}
+
+tr {
+	background: yellow;
+	colour: black;
+}
+
+/*Added padding*/
+th, tr {
+	padding: .5em;
+}
+
+/*Added border around table*/
+table,th,tr {
+	border: solid 1px black;
+
+}
 }
